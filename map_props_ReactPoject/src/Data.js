@@ -6,16 +6,16 @@ export default [
         startDate: "",
         endDate: "",
         description: "",
-        imageUrl: ""
+        imageUrl: "monte_fuji.jpeg"
     },
     {
-        title: "Parco della Rocca",
+        title: "Cascate del Niagara",
         location: "Japan",
         googleMapsUrl: "",
         startDate: "",
         endDate: "",
         description: "",
-        imageUrl: ""
+        imageUrl: "niagara.jpeg"
     },
     {
         title: "Emingway",
@@ -26,13 +26,5 @@ export default [
         description: "",
         imageUrl: ""
     },
-    {
-        title: "Monte Donato",
-        location: "Japan",
-        googleMapsUrl: "",
-        startDate: "",
-        endDate: "",
-        description: "",
-        imageUrl: ""
-    }
+   
 ]

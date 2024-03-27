@@ -1,4 +1,5 @@
 import React from "react"
+import "./Card.css"
 
 export default function Card(props){
     console.log(props)
@@ -7,8 +8,8 @@ export default function Card(props){
             <div className="container w-75">
                 <div className="card mb-3">
                     <div className="row g-0">
-                        <div className="col-md-4">
-                            <img src="" className="img-fluid rounded-start" alt=""/>
+                        <div className="img-cont col-md-4">
+                            <img src={props.imageUrl} className="img-fluid rounded-start" alt=""/>
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
